@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários Escolares</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Formulários</h1>
+
+
+    <section class="card">
+        <h2>Cadastro de Usuário</h2>
+        <form id="cadastroUsuario">
+            <input type="text" placeholder="Nome" required>
+            <input type="email" placeholder="E-mail" required>
+            <input type="password" placeholder="Senha" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </section>
+
+ 
+    <section class="card">
+        <h2>Cadastro de Tarefa</h2>
+        <form id="cadastroTarefa">
+            <input type="text" placeholder="Título" required>
+
+            <textarea placeholder="Descrição" required></textarea>
+
+            <select required>
+                <option value="">Prioridade</option>
+                <option>Baixa</option>
+                <option>Média</option>
+                <option>Alta</option>
+            </select>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </section>
+
+    <section class="card">
+        <h2>Reserva de Espaço</h2>
+        <form id="reserva">
+            <input type="text" placeholder="Nome" required>
+            <input type="text" placeholder="Turma" required>
+            <input type="time" required>
+            <button type="submit">Reservar</button>
+        </form>
+    </section>
+
+ 
+    <section class="card">
+        <h2>Login</h2>
+        <form id="login">
+            <input type="email" placeholder="E-mail" required>
+            <input type="password" placeholder="Senha" required>
+            <button type="submit">Entrar</button>
+        </form>
+    </section>
+
+    <section class="card">
+        <h2>Contato com a Coordenação</h2>
+        <form id="contato">
+            <input type="text" placeholder="Assunto" required>
+
+            <textarea placeholder="Mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

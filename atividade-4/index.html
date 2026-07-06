@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Alunos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Portal Escolar</h1>
+
+    <div class="caixa">
+        <h2>Cadastro de Aluno</h2>
+
+        <form id="formCadastro">
+            <label>Nome:</label>
+            <input type="text" id="nome" placeholder="Digite o nome" required>
+
+            <label>Idade:</label>
+            <input type="number" id="idade" placeholder="Digite a idade" required>
+
+            <label>E-mail:</label>
+            <input type="email" id="email" placeholder="Digite o e-mail" required>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+
+    <div class="caixa">
+        <h2>Avisos</h2>
+
+        <h3>Reunião de Pais</h3>
+        <p>
+            A reunião acontecerá na próxima sexta-feira às 19h.
+            Contamos com a presença de todos os responsáveis.
+        </p>
+
+        <h3>Entrega de Trabalhos</h3>
+        <p>
+            Os trabalhos deverão ser entregues até o dia 15 deste mês.
+            Não serão aceitas entregas após a data.
+        </p>
+
+        <button id="btnMensagem">Clique Aqui</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
